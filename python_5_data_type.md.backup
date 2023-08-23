@@ -1,0 +1,80 @@
+# Python - Types de données
+
+## Types de données intégrés
+
+En programmation, le type de données est un concept important.
+
+Les variables peuvent stocker des données de différents types, et différents types peuvent faire différentes choses.
+
+Python a les types de données suivants intégrés par défaut, dans ces catégories :
+
+	Text Type:	str
+	
+	Numeric Types:	int, float, complex
+	
+	Sequence Types:	list, tuple, range
+	
+	Mapping Type:	dict
+	
+	Set Types:	set, frozenset
+	
+	Boolean Type:	bool
+	
+	Binary Types:	bytes, bytearray, memoryview
+	
+	None Type:	NoneType
+
+|Text Type | str |
+| Numeric Tyes | int, float, complex|
+| Sequence Types | list, typle, range |
+| Mapping Type | dict |
+|Boolean Type | bool |
+| Set Types | set, frozenset |
+| Binary Types | bytes, bytearray, memoryview |
+|None Type | NoneType |
+
+| **Method**   | **Description**                                                                          |
+|--------------|------------------------------------------------------------------------------------------|
+| capitalize() | Converts the first character to upper case                                               |
+| casefold()   | Converts string into lower case                                                          |
+| center()     | Returns a centered string                                                                |
+| count()      | Returns the number of times a specified value occurs in a string                         |
+| encode()     | Returns an encoded version of the string                                                 |
+| endswith()   | Returns true if the string ends with the specified value                                 |
+| find()       | Searches the string for a specified value and returns the position of where it was found |
+| format()     | Formats specified values in a string                                                     |
+| isalnum()    | Returns True if all characters in the string are alphanumeric                            |
+| isalpha()    | Returns True if all characters in the string are in the alphabet                         |
+| isdecimal()  | Returns True if all characters in the string are decimals                                |
+| isdigit()    | Returns True if all characters in the string are digits                                
+| upper()	   | Converts a string into upper case|
+| title()      | Converts the first character of each word to upper case|
+| swapcase()   | Swaps cases, lower case becomes upper case and vice versa|
+
+
+
+
+## Obtenir le type de données
+
+Vous pouvez obtenir le type de données de n'importe quel objet en utilisant la fonction __type()__
+
+Imprimer le type de données de la variable x :
+
+```pyton
+x = 5
+print(type(x))
+```
+
+## Définition du type de données
+
+En Python, le type de données est défini lorsque vous affectez une valeur à une variable :
+
+![Data Type - source: w3school.com](./img/datatype.png)
+
+## Définition du type de données spécifique
+
+Si vous souhaitez spécifier le type de données, vous pouvez utiliser les fonctions constructeur suivantes :
+
+![Data Type - source: w3school.com](./img/settingDataType.png)
+
+[Next ⟶](./python_7_numbers_more.md)
