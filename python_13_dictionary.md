@@ -289,3 +289,41 @@ thisdict = {
 if "model" in thisdict:
   print("Yes, 'model' is one of the keys in the thisdict dictionary")
 ```
+
+## Modifier les éléments du dictionnaire
+
+## Modifier les valeurs
+
+Vous pouvez modifier la valeur d'un élément spécifique en vous référant à son nom de clé :
+
+**Exemple:**
+
+```python
+# change "year" to 2018
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict["year"] = 2018
+```
+
+### Mise à jour du dictionnaire*
+
+La méthode `update()` met à jour le dictionnaire avec les éléments de l'argument donné.
+
+L'argument doit être un dictionnaire ou un objet itérable contenant des paires clé/valeur.
+
+**Exemple**
+
+Mettre à jour l'« année » de la voiture en utilisant la méthode `update()` :
+
+```python
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict.update({"year": 2020})
+```
