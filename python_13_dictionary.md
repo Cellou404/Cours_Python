@@ -327,3 +327,21 @@ thisdict = {
 }
 thisdict.update({"year": 2020})
 ```
+
+## Ajouter des éléments de dictionnaire
+
+### Ajout d'éléments
+
+L'ajout d'un élément au dictionnaire se fait en utilisant une nouvelle clé d'indexation et en lui attribuant une valeur :
+
+**Exemple**
+
+```python
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict["color"] = "red"
+print(thisdict)
+```
